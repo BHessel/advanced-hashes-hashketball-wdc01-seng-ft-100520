@@ -186,12 +186,22 @@ def player_stats(player_name)
 end
 
 def player_with_largest_shoes
-  player_list.map[:shoe].max do |stat_category|
-    if stat_category[:shoe] == shoe_size.max
-    return stat_category   #return the player's name
-    end
+  player_list.max_by do |size|
+    size[:shoe][:name]
   end
+  binding.pry
 end
+
+=begin
+students = [ { name: "Mary Jones", test_score: 80, sport: "soccer" }, { name: "Bob Kelly", test_score: 95, sport: "basketball" }, { name: "Kate Saunders", test_score: 99, sport: "hockey" }, { name: "Pete Dunst", test_score: 88, sport: "football" } ]
+
+students.max_by{|k| k[:test_score] }
+#=> {:name=>"Kate Saunders", :test_score=>99, :sport=>"hockey"}
+
+students.max_by{|k| k[:test_score] }[:name]
+
+=end
+
 
 
 def big_shoe_rebounds
