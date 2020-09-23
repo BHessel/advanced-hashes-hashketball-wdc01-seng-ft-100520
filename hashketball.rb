@@ -189,7 +189,7 @@ def player_with_largest_shoes
   binding.pry
   player_list.max_by do |shoe_size|
     shoe_size[:shoe]
-    shoe_size[:shoe][:name]
+    #shoe_size[:shoe][:name]
   end
   #binding.pry
 end
