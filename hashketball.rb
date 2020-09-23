@@ -186,7 +186,7 @@ def player_stats(player_name)
 end
 
 def largest_shoe_size
-  player_list.map do |stat_category|
+  player_list.map do |stat_category|    #iterate over stat_category
     if stat_category[:shoe] == stat_category[:shoe].max
       return stat_category[:shoe].max
     end
