@@ -188,8 +188,8 @@ end
 def largest_shoe_size
   player_list.map do |stat_category|
     stat_category[:shoe].max
+    binding.pry
   end
-  binding.pry
 end
 
 
