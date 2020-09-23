@@ -187,8 +187,8 @@ end
 
 def largest_shoe_size(shoe_size)
   player_list.map do |stat_category|
-    if stat_category[:shoe] == shoe_size
-    return stat_category   #return the player's full hash
+    if stat_category[:shoe] == shoe_size.max
+    return stat_category   #return the player's name
     end
   end
 end
