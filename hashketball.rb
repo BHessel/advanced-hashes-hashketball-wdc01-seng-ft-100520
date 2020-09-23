@@ -209,8 +209,7 @@ students.max_by{|k| k[:test_score] }[:name]
 def big_shoe_rebounds
   
   #find player w/ largest shoe size -- player_list[:shoe].max? do i need to iterate first?
-  #if (player input) == (player w/ largest shoe)
-  #return (player)(rebounds)
+  #player_with_largest_shoes[:rebounds]
 end
 
 #binding.pry
