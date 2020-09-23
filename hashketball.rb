@@ -186,12 +186,15 @@ def player_stats(player_name)
 end
 
 def largest_shoe_size
-  
+  player_list.map do |stat_category|
+    stat_category[:shoe].max
+  binding.pry
 end
 
 
+
 def big_shoe_rebounds
-  player_list.map do |stat_category|
+  
   #find player w/ largest shoe size -- player_list[:shoe].max? do i need to iterate first?
   #if (player input) == (player w/ largest shoe)
   #return (player)(rebounds)
