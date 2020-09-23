@@ -195,16 +195,6 @@ def player_with_largest_shoes
 end
 #binding.pry
 
-=begin
-students = [ { name: "Mary Jones", test_score: 80, sport: "soccer" }, { name: "Bob Kelly", test_score: 95, sport: "basketball" }, { name: "Kate Saunders", test_score: 99, sport: "hockey" }, { name: "Pete Dunst", test_score: 88, sport: "football" } ]
-
-students.max_by{|k| k[:test_score] }
-#=> {:name=>"Kate Saunders", :test_score=>99, :sport=>"hockey"}
-
-students.max_by{|k| k[:test_score] }[:name]
-
-=end
-
 
 
 def big_shoe_rebounds
