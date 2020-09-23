@@ -190,8 +190,8 @@ def largest_shoe_size
     if stat_category[:shoe].max
       return stat_category[:shoe]
     end
-    binding.pry
   end
+  binding.pry
 end
 
 
