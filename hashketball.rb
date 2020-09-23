@@ -190,9 +190,9 @@ def player_with_largest_shoes
     shoe_size[:shoe]
     shoe_size[:shoe][:name]
   end
-  #binding.pry
+  binding.pry
 end
-binding.pry
+#binding.pry
 
 =begin
 students = [ { name: "Mary Jones", test_score: 80, sport: "soccer" }, { name: "Bob Kelly", test_score: 95, sport: "basketball" }, { name: "Kate Saunders", test_score: 99, sport: "hockey" }, { name: "Pete Dunst", test_score: 88, sport: "football" } ]
