@@ -191,8 +191,8 @@ def largest_shoe_size
       return stat_category[:shoe]
     end
   end
-  binding.pry
 end
+binding.pry
 
 
 def big_shoe_rebounds
