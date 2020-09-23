@@ -180,15 +180,15 @@ end
 def player_stats(player_name)
   player_list.map do |stat_category|
     if stat_category[:player_name] == player_name
-    return stat_category   #return the player's full hash
+    return stat_category
     end
   end
 end
 
 def largest_shoe_size(shoe_size)
-  player_list.map do |stat_category|    #iterate over stat_category to create new array of shoe sizes 
-    if stat_category[:shoe] == stat_category[:shoe].max
-      return stat_category[:shoe].max
+  player_list.map do |stat_category|
+    if stat_category[:shoe] == shoe_size
+    return stat_category   #return the player's full hash
     end
   end
 end
