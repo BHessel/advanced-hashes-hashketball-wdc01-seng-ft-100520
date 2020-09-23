@@ -190,7 +190,6 @@ def player_with_largest_shoes
     size[:shoe][:name]
     binding.pry
   end
-  binding.pry
 end
 
 =begin
