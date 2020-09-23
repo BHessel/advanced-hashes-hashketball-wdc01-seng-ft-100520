@@ -188,10 +188,10 @@ end
 
 def big_shoe_rebounds
   binding.pry
-  player_list.max_by do |shoe_size|
+  stat_list = player_list.max_by do |shoe_size|
     shoe_size[:shoe]
   end
-  
+  stat_list[:rebounds]
   #find player w/ largest shoe size
   #in that player's hash show rebounds
 end
