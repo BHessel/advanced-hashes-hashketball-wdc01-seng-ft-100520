@@ -188,9 +188,9 @@ end
 def player_with_largest_shoes
   player_list.max_by do |size|
     size[:shoe][:name]
-    binding.pry
   end
 end
+binding.pry
 
 =begin
 students = [ { name: "Mary Jones", test_score: 80, sport: "soccer" }, { name: "Bob Kelly", test_score: 95, sport: "basketball" }, { name: "Kate Saunders", test_score: 99, sport: "hockey" }, { name: "Pete Dunst", test_score: 88, sport: "football" } ]
