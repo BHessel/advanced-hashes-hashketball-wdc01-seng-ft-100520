@@ -196,8 +196,8 @@ def big_shoe_rebounds
   end
   binding.pry
   
-  #find player w/ largest shoe size -- player_list[:shoe].max? do i need to iterate first?
-  #player_with_largest_shoes[:rebounds]
+  #find player w/ largest shoe size
+  #in that player's hash show rebounds
 end
 
 #binding.pry
