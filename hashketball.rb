@@ -185,18 +185,16 @@ def player_stats(player_name)
   end
 end
 
-def player_with_largest_shoes
-  player_list.max_by do |shoe_size|
-    shoe_size[:shoe]
-    #shoe_size[:shoe][:name]
-  end
-  binding.pry
-end
-#binding.pry
+
 
 
 
 def big_shoe_rebounds
+  player_list.max_by do |shoe_size|
+    shoe_size[:shoe]
+    shoe_size[:shoe][:name]
+  end
+  binding.pry
   
   #find player w/ largest shoe size -- player_list[:shoe].max? do i need to iterate first?
   #player_with_largest_shoes[:rebounds]
