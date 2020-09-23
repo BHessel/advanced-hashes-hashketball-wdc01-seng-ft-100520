@@ -186,8 +186,7 @@ def player_stats(player_name)
 end
 
 def player_with_largest_shoes
-  player_list.max_by do |size|
-    size[:shoe][:player_name]
+  player_list.max_by {|size| size[:shoe]}[:player_name]
   end
   binding.pry
 end
